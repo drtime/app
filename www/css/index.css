@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    color: #fff;
+    background: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#tabbar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    user-select: none;
+}
+
+#tabbar .tabitem {
+    width: 33%;
+    background: #FF5722;
+    height: 100%;
+    float: left;
+    border-left: #FF7043 1px solid;
+}
+
+#tabbar .tabitem:nth-child(1) {
+    border-left: 0;
+}
+
+#tabbar .tabitem p {
+    text-align: center;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+#tabbar .tabitem.selected {
+    background: #BF360C;
+}
+
+#manuals {
+    background: #fff;
+    padding: 0;
+}
+
+#manuals li {
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #333;
+    list-style: none;
+    text-align: right;
+    height: 60px;
+    display: block;
+    border-bottom: 1px rgba(0,0,0,0.05) solid;
+}
+
+#manuals li span {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#manuals i {
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 60px;
+    color: #FF5722;
+}
+
+#manual-screen {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1000;
+    color: #333;
+}
+
+#manual-content {
+    padding: 15px;
+}
+
+#manual-navbar {
+    height: 60px;
+    width: 100%;
+    background: #FF5722;
+    user-select: none;
+}
+
+#manual-navbar i {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+#manual-navbar span {
+    height: 60px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.page {
+    color: #000;
+}
